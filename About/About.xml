@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Basic Dropdowns Replace Stuff Patch</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.basicdropdownsreplacestuffpatch</packageId>
+  <modVersion IgnoreIfNoMatchingField="True">16082026</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Stops Replace Stuff - Continued from unpacking architect dropdowns that contain stuffable buildings.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>Memegoddess.ReplaceStuff</packageId>
+      <displayName>Replace Stuff - Continued</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3526354009</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.categoriesdropdowns</packageId>
+      <displayName>Basic Dropdowns</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3455529827</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Memegoddess.ReplaceStuff</li>
+    <li>cedaro.material.submenu</li>
+    <li>ferny.categoriesdropdowns</li>
+  </loadAfter>
+</ModMetaData>
